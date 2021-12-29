@@ -1,8 +1,8 @@
 # tensorflow-mnist-manifolds
 
-Exploration of different dimensionality reduction techniques on the MNIST dataset. The objective is to reduce MNIST data samples to a 2-dimensional representation and analyze the new representation among several appreaches:
+Exploration of different dimensionality reduction techniques on the MNIST dataset. The objective is to reduce MNIST data samples to a 2-dimensional representation and analyze the obtained new representations using several appreaches:
  - Variational AutoEncoders (VAE)
- - Dense NN and CNN classifiers
+ - Dense NN and CNN classifiers (with 2-neuron bottleneck)
  - Linear approaches: PCA, LDA
  - Non-linear approaches: UMAP, t-SNE
 
@@ -10,7 +10,7 @@ Exploration of different dimensionality reduction techniques on the MNIST datase
 ## VAE latent representations
 Two different VAEs are tested: one using flat pixel features (only Dense layers), and another using 2d images as input (using Conv2d layers).
 - Dimensionality reduction (2D representation), z-dim: 
-    - We observe that data samples are embedded to a latent representation where similar classes (e.g. 0 and 6) have a close representation (near in distance) in the latent 2d space.
+    - We observe that data samples are embedded to a latent representation where visually similar classes (e.g. 0 and 6) have a close representation (near in distance) in the latent 2d space.
 
 <p float="left">
     <img src="imgs/latent_VAE_flat.png" width="49%"/>

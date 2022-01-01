@@ -6,6 +6,8 @@ Exploration of different dimensionality reduction techniques on the MNIST datase
  - Linear approaches: PCA, LDA
  - Non-linear approaches: UMAP, t-SNE
 
+## MNIST Dataset
+<img src="imgs/input2.png" width="55%"/>
 
 ## VAE latent representations
 Two different VAEs are tested: one using flat pixel features (only Dense layers), and another using 2d images as input (using Conv2d layers).
@@ -69,6 +71,6 @@ A feed-forward neural network (shallowing flattened pixels) and a CNN (taking 2d
 
 ## Conclusions
 
-- Manifolds and latent representation learnt by NN and CNN classifiers is the since the networks have the  specific task of class separation (at least more interpretable than VAEs).
+- Manifolds and latent representation learnt by NN and CNN classifiers is qualitatively and visually better, since the networks have the  specific task of class separation (at least more interpretable than VAEs).
 - Linear approaches struggle to find a good low-dimensional representation.
 - UMAP provides interesting embeddings, and helps to easily identify outliers with acceptable computation time.

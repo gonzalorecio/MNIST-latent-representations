@@ -55,7 +55,7 @@ A feed-forward neural network (shallowing flattened pixels) and a CNN (taking 2d
 
 <p float="left">
     <img src="imgs/lda.png" width="53%"/>
-    <img src="imgs/lda-3d2.png" width="46%"/>
+    <img src="imgs/lda-3d2.png" width="44%"/>
 </p>
 
 ## Non-linear dimensionality reduction approaches
